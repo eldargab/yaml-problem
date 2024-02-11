@@ -1,0 +1,11 @@
+---
+# example fs layout
+items:
+  - kind: 'file'
+    location: 's3://foo/bar.txt'
+  - kind: 'directory'
+    items:
+      - kind: 'file'
+        location: '/hello/world'
+  - kind: 'file'
+    location: 's3://foo/baz.txt'
